@@ -14,7 +14,9 @@ import ManageBooks from "../pages/dashboard/manageBooks/ManageBooks";
 import AddBook from "../pages/dashboard/addbook/AddBook";
 import UpdateBook from "../pages/dashboard/EditBook/UpdateBook";
 import DashboardLayout from "../pages/dashboard/DashBoardLayout";
-import PrivateRoute from "./Privateroute";
+import PrivateRoute from "./Privateroute.jsx";
+
+
 
 const router = createBrowserRouter([
   {
