@@ -9,12 +9,12 @@ import Register from "../components/Register";
 import OrderPage from "../pages/books/OrderPage";
 import AdminRoute from "./AdminRoute";
 import AdminLogin from "../components/AdminLogin";
+import PrivateRoute from "./Privateroute";
 import Dashboard from "../pages/dashboard/Dashboard";
 import ManageBooks from "../pages/dashboard/manageBooks/ManageBooks";
 import AddBook from "../pages/dashboard/addbook/AddBook";
 import UpdateBook from "../pages/dashboard/EditBook/UpdateBook";
-import DashboardLayout from "../pages/dashboard/DashBoardLayout";
-import PrivateRoute from "./Privateroute";
+import DashBoardLayout from "../pages/dashboard/DashBoardLayout";
 
 
 
@@ -75,7 +75,7 @@ const router = createBrowserRouter([
     path: "/dashboard",
     element: (
       <AdminRoute>
-        <DashboardLayout/>
+        <DashBoardLayout/>
       </AdminRoute>
     ),
     children: [
